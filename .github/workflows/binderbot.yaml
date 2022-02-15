@@ -71,6 +71,6 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ steps.parse.outputs.binderbot_target_branch }}
           force: true
-      - name: Trigger repository dispatch on Pangeo Gallery
-        if: github.ref == 'refs/heads/master'
-        run: curl -f https://pangeo-gallery-bot.herokuapp.com/gallery/submodule-dispatch/${{ github.repository }}
+#      - name: Trigger repository dispatch on Pangeo Gallery
+#        if: github.ref == 'refs/heads/master'
+#        run: curl -f https://pangeo-gallery-bot.herokuapp.com/gallery/submodule-dispatch/${{ github.repository }}
