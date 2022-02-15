@@ -1,9 +1,9 @@
 ---
-name: Example Gallery
+name: Example Galley acocac
 description: >-
   An example gallery of notebooks used for debugging the Pangeo Gallery
   infrastructure.
-gallery_repository: pangeo-gallery/pangeo-gallery
+gallery_repository: acocac/pangeo-gallery
 binder_url: "https://binder.pangeo.io"
 binder_repo: pangeo-data/pangeo-docker-images
 binder_ref: master
