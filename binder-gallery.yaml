@@ -4,7 +4,7 @@ description: >-
   An example gallery of notebooks used for debugging the Pangeo Gallery
   infrastructure.
 gallery_repository: acocac/pangeo-gallery
-binder_url: "https://binder.pangeo.io"
+binder_url: "https://mybinder.org/"
 binder_repo: pangeo-data/pangeo-docker-images
 binder_ref: master
 binderbot_target_branch: binderbot-built
