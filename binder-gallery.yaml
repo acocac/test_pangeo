@@ -1,0 +1,9 @@
+---
+name: Test Gallery
+description: >-
+  An test example gallery.
+gallery_repository: acocac/pangeo-gallery
+binder_url: "https://mybinder.org/"
+binder_repo: pangeo-data/pangeo-docker-images
+binder_ref: master
+binderbot_target_branch: binderbot-built
